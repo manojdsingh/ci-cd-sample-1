@@ -24,7 +24,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: username/mywebapp:latest  # Please change the username here
+          tags: manojdsingh/mywebapp:latest  # Please change the username here
 
   update_server:
     name: Updating prod environment
